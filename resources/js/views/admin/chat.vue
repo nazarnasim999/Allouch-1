@@ -597,6 +597,7 @@ box-shadow: 4px 4px 0px 2px #1B1C1D;
     width: 100%;
     background-color: #F5F3EA;
     padding: 30px;
+    height: 90vh
 }
 
 .contanir {
@@ -1233,6 +1234,13 @@ button.Add {
 }
 
 @media screen and (max-width: 1440px){
+    .page-1 {
+    width: 100%;
+    background-color: #F5F3EA;
+    padding: 30px;
+    height: 110vh
+   
+}
     .imges{
     width: 150%;
     max-height: 43px;
@@ -1583,6 +1591,7 @@ button.Add {
     width: 100%;
     background-color: #F5F3EA;
     padding: 40px;
+    height: 190vh;
 }
 .main {
     width: 100%;
@@ -1680,6 +1689,7 @@ button.Add {
     width: 100%;
     background-color: #F5F3EA;
     padding: 20px;
+    height: 250vh;
 }
 .inp[data-v-0037c057][data-v-0037c057] {
     width: 75%;

@@ -28,6 +28,8 @@ line-height: normal;
       </p>
   </div>
       </div>
+
+     
     <div class="chat-box" id="chat-box">
      
       <div class="col-12" v-for="message in messages" :key="message.id" >
@@ -108,6 +110,9 @@ line-height: normal;
                 <a>
                 <img v-if="inf.image" class="imges" :src="'/uploads/' + inf.image" alt="">
                 <img v-else class="imges" src='/images/Characters.png' alt="">
+               
+
+            
 
                 <span v-if="inf.chat_count > 0" class="badge badge-danger badge-counter pos">{{ inf.chat_count }}</span>
                 </a>
@@ -211,15 +216,12 @@ export default {
           
         }, 
 
-     
-      
-
+  
         methods:{
 
 
             setitem(e){
                 
-                this.chatname = e.user_name;
                 this.reciever_id = e.id;
                 this.inf_img = e.image;
                 this.chatter = e;
@@ -245,6 +247,7 @@ export default {
 
                 console.log(res.data.influencer)
                 Vue.set(this.$data, 'influencer', res.data.influencer)
+               
 
                 
                
@@ -308,10 +311,6 @@ export default {
 
         mounted() {
    
-
-    
-  
-
   
         this.setitem(this.chatter);
         
@@ -600,6 +599,7 @@ box-shadow: 4px 4px 0px 2px #1B1C1D;
     width: 100%;
     background-color: #F5F3EA;
     padding: 30px;
+    height: 90vh;
 }
 
 .contanir {
@@ -1579,6 +1579,14 @@ button.Add {
     width: 90%;
     padding: 24px;
 }
+
+.page-1 {
+    width: 100%;
+    background-color: #F5F3EA;
+    padding: 30px;
+    height: 110vh
+   
+}
 }
 @media screen and (max-width: 1024px){
     .id-box h3 {color: #000;font-family: sans-serif;font-size: 10px;font-style: normal;font-weight: 500;line-height: normal;}
@@ -1586,6 +1594,7 @@ button.Add {
     width: 100%;
     background-color: #F5F3EA;
     padding: 40px;
+    height: 190vh;
 }
 .main {
     width: 100%;
@@ -1674,6 +1683,7 @@ button.Add {
     width: 100%;
     background-color: #F5F3EA;
     padding: 20px;
+    height: 250vh;
 }
 .yes {
     width: 50%;

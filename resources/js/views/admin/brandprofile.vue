@@ -311,6 +311,8 @@ line-height: normal;
      box-shadow: 0px 10px 54px 0px rgba(0, 0, 0, 0.25);
      width: 30%;
      padding: 30px;
+     min-height: 895px;
+
  }
  
  .Sponsorship {
@@ -1013,6 +1015,16 @@ line-height: normal;
      padding-top: 20px;
  }
  @media screen and (max-width: 1600px){
+    .box-2 {
+    height: 100%;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 0px 10px 54px 0px rgba(0, 0, 0, 0.25);
+    width: 30%;
+    padding: 30px;
+    min-height: 819px;
+}
     .hei{
         height: 265px;
     }
@@ -1830,6 +1842,7 @@ line-height: normal;
      box-shadow: 0px 10px 54px 0px rgba(0, 0, 0, 0.25);
      width: 30%;
      padding: 24px;
+     min-height: 600px;
  }
  }
  @media screen and (max-width: 1024px){

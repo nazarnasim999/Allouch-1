@@ -198,10 +198,7 @@ export default {
                 method:'POST',
                 model:{},
                 model:'',
-
-               
-               
-              
+ 
               
               
             }
@@ -628,7 +625,9 @@ button.llo {
     padding: 20px 0px 4px 0px;
 }
 
-.id-box h3 {color: #000;font-family: sans-serif;font-size: 16px;font-style: normal;font-weight: 500;line-height: normal;}
+.id-box h3 {color: #000;
+    font-family: system-ui !important;
+    font-size: 16px;font-style: normal;font-weight: 500;line-height: normal;}
 
 .titel-box {
     width: 100%;
@@ -647,7 +646,7 @@ button.llo {
 
 .id-titel p {
     color: #000;
-    font-family: sans-serif;
+    font-family: system-ui !important;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -695,7 +694,7 @@ button.llo {
 .para-box p {
     color: #000;
     text-align: center;
-    font-family: sans-serif;
+    font-family: system-ui !important;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -773,11 +772,13 @@ button.llo {
 
 .rol-1 h2 {
     color: #1B1C1D;
-    font-family: sans-serif;
+    font-family: fantasy;
     font-size: 66px;
     font-style: normal;
     font-weight: bold;
     line-height: normal;
+    letter-spacing: 3px;
+    letter-spacing: 3px;
 }
 
 .new-btn-lid {
@@ -936,7 +937,7 @@ button.llo {
 .short-card h2 {
     color: #000;
     font-family: sans-serif;
-    font-size: 42px;
+    font-size: 46px;
     font-style: normal;
     font-weight: 1000;
     line-height: normal;
@@ -1046,12 +1047,13 @@ button.llo {
 }
 .rol-1 h2 {
     color: #1B1C1D;
-    font-family: sans-serif;
+    font-family: fantasy;
     font-size: 55px;
     font-style: normal;
     font-weight: 1000;
     line-height: normal;
     text-align: center;
+    letter-spacing: 3px;
 }
 .new-btn-lid button {
     border-radius: 6px;
@@ -1343,12 +1345,13 @@ button.Add {
 }
 .rol-1 h2 {
     color: #1B1C1D;
-    font-family: sans-serif;
+    font-family: fantasy;
     font-size: 38px;
     font-style: normal;
     font-weight: 1000;
     line-height: normal;
     text-align: center;
+    letter-spacing: 3px;
 }
 .new-btn-lid button {
     border-radius: 6px;
@@ -1406,7 +1409,7 @@ button.Add {
 .short-card h2 {
     color: #000;
     font-family: sans-serif;
-    font-size: 25px;
+    font-size: 30px;
     font-style: normal;
     font-weight: 1000;
     line-height: normal;
@@ -1789,7 +1792,7 @@ button.Add {
 .para-box p {
     color: #000;
     text-align: center;
-    font-family: sans-serif;
+    font-family: system-ui;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;

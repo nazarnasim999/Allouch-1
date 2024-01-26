@@ -36,12 +36,35 @@ export default function chartBarDemo() {
             labels: ["MON", "TUE", "WED", "THU", "FRI", "SAT"],
             datasets: [
                 {
-                    label: "Revenue",
+                    label: "Revenue 1",
                     backgroundColor: "#FF9966",
-                    hoverBackgroundColor: "#FF5757",
+                    hoverBackgroundColor: "#E0C6FD",
                     borderColor: "#4e73df",
                     data: [4215, 5312, 6251, 7841, 9821, 14984]
-                }
+                },
+                {
+                    label: "Revenue 2",
+                    backgroundColor: "#FF5757",
+                    hoverBackgroundColor: "#2c9faf",
+                    borderColor: "#FF5757",
+                    data: [3215, 4312, 5251, 6841, 7821, 12984]
+                },
+
+                {
+                    label: "Revenue 3",
+                    backgroundColor: "#2c9faf",
+                    hoverBackgroundColor: "#FF5757",
+                    borderColor: "#2c9faf",
+                    data: [8215, 312, 15251, 3841, 4821, 2984]
+                },
+
+                {
+                    label: "Revenue 4",
+                    backgroundColor: "#E0C6FD",
+                    hoverBackgroundColor: "#FF9966",
+                    borderColor: "#E0C6FD",
+                    data: [215, 2312, 3251, 7841, 821, 11984]
+                },
             ]
         },
         options: {
@@ -67,7 +90,8 @@ export default function chartBarDemo() {
                         ticks: {
                             maxTicksLimit: 6
                         },
-                        maxBarThickness: 25
+                        maxBarThickness: 10,
+                       
                     }
                 ],
                 yAxes: [
@@ -119,6 +143,9 @@ export default function chartBarDemo() {
                         );
                     }
                 }
+            },
+            plugins: {
+                roundedBars: true // Enable rounded bars
             }
         }
     });
